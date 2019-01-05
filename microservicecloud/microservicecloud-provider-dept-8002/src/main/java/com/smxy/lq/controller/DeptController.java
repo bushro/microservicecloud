@@ -22,6 +22,11 @@ public class DeptController
     @Autowired
     private DiscoveryClient client;
 
+    @RequestMapping(value = "/dept/test")
+    public String test() {
+        return "8002";
+    }
+
     @RequestMapping(value = "/dept/add", method = RequestMethod.POST)
     public boolean add(@RequestBody Dept dept)
     {

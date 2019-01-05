@@ -10,11 +10,11 @@ import org.springframework.cloud.netflix.feign.EnableFeignClients;
  * @Description: TOTO
  * @date 2019-01-02
  */
-@EnableFeignClients
-@EnableEurekaClient
+@EnableFeignClients //开启feign
+@EnableEurekaClient //注入进eureka服务中
 @SpringBootApplication
-public class FeignApplication {
+public class DeptConsumer80_Feign_App {
     public static void main(String[] args) {
-        SpringApplication.run(FeignApplication.class,args);
+        SpringApplication.run(DeptConsumer80_Feign_App.class,args);
     }
 }

@@ -27,7 +27,7 @@ eureka:
        #defaultZone: http://localhost:7001/eureka
        defaultZone: http://eureka7001:7001/eureka/,http://eureka7003:7003/eureka/
   instance:
-    instance-id: microservicecloud-dept8001  #服务名称
+    instance-id: microservicecloud-dept8001-hystrix   #自定义hystrix相关的服务名称信息
     prefer-ip-address: true     #访问路径可以显示IP地址
 
 info:
