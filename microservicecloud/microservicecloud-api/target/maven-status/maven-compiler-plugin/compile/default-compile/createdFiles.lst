@@ -1,0 +1,4 @@
+com\smxy\lq\entities\Dept.class
+com\smxy\lq\service\DeptClientService.class
+com\smxy\lq\service\DeptClientServiceFallbackFactory$1.class
+com\smxy\lq\service\DeptClientServiceFallbackFactory.class
